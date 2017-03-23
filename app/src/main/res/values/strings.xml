@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Coffee Addicts Corner</string>
+    <string-array name="options">
+        <item>Drinks</item>
+    <item>Hot coffee</item>
+    <item >Iced coffee</item>
+    <item >Hot Tea</item>
+    <item >Cold Tea</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vechnet.coffeeaddictscorner.MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/HotBeveragesbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="196dp"
+        android:text="Hot Beverages"
+        android:onClick="onClickHotBeverages"/>
+
+    <Button
+        android:id="@+id/IcedBeveragesbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HotBeveragesbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Iced Beverages"
+        android:onClick="onClickIcedBeverages"/>
+
+    <Button
+        android:id="@+id/Backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IcedBeveragesbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Back"
+        android:onClick="onClickBack"/>
+</RelativeLayout>
